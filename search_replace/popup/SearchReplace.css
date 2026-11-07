@@ -1,0 +1,15 @@
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px
+}
+
+.input-row p {
+    width: 60px;
+}
+
+.input-row textarea {
+    resize: none;
+}
+

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="SearchReplace.css" />
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div id="popup-content">
+        <div class="input-row">
+            <input id="search" placeholder="Search"></input> 
+        </div>
+
+        <div class="input-row">
+            <input id="replace" placeholder="Replace"></input>
+        </div>
+    </div>
+
+    <div id="buttons">
+        <button id="find_button">Find</button>
+        <button id="replace_button">Replace</button>
+        <button id="undo_button">Undo</button>
+        <button id="redo_button">Redo</button>
+        <button id="redact_button">Redact</button>
+    </div>
+
+
+
+    <p id="result">Enter a word to search.</p>
+
+
+    <script src="SearchReplace.js"></script>
+  </body>
+</html>

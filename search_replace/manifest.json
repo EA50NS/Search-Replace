@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Search + Replace",
+    "version": "1.0",
+    "description": "Browser addon that finds all instances of a user entered word, and replaces it by another user entered word",
+    "icons":{
+        "48": "icons/jepi_icon.png"
+    },
+    "permissions": ["activeTab", "scripting", "find"],
+    "host_permissions": ["<all_urls>"],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "search_and_replace@ea50n.org",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+    "action": {
+        "default_title": "SearchReplace",
+        "default_popup": "popup/SearchReplace.html"
+    }
+}
